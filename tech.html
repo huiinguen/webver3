@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Tech Tools - huiinguen</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap&font-display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">huiinguen</div>
+            <button aria-label="Toggle menu" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav>
+                <ul>
+                    <li><a class="nav-link animated-border" href="index.html">Resources</a></li>
+                    <li><a class="nav-link active animated-border" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="products full-page">
+        <div class="container">
+            <a class="back-btn" href="products.html">🔙 Quay lại</a>
+            <div class="section-grid">
+                <div class="section-card animated-border" data-category="tech" data-link="https://drive.google.com/drive/folders/1JrxjCwjgJCxy3_akJuGmqfIrZaqx5Dz0?usp=drive_link" data-note="spam chữ">
+                    <h2>Tool SPAM TEXT</h2>
+                    <p>spam chữ</p>
+                </div>
+                <div class="section-card animated-border" data-category="tech" data-link="https://drive.google.com/drive/folders/1-bHlCbRAO1XG_6c6vS4MQ6z60yi8IyNF?usp=drive_link" data-note="tiktok,fb">
+                    <h2>Tool tds(fb,tt)</h2>
+                    <p>tiktok,fb</p>
+                </div>
+                <div class="section-card animated-border" data-category="tech" data-link="https://drive.google.com/drive/folders/15u8ZHf4egcnAunZcOtgoKM4gO2zyVW3y?usp=drive_link" data-note="backup data ổ cứng">
+                    <h2>Tool backup data</h2>
+                    <p>backup data ổ cứng</p>
+                </div>
+                <div class="section-card animated-border" data-category="tech" data-link="https://drive.google.com/drive/folders/1Nk4DY89mZtQi4B_bqgAzcdxNFzrjN3zx?usp=drive_link" data-note="Tool crask win,office,...(gia hạn thời gian)">
+                    <h2>Crask win,office</h2>
+                    <p>Tool crask win,office,...(gia hạn thời gian)</p>
+                </div>
+                <div class="section-card animated-border" data-category="tech" data-link="https://drive.google.com/drive/folders/1bPpUma7zNDFykVr41ySfKEvip_9yshEj?usp=drive_link" data-note="Tool crask win,office,...(gia hạn thời gian)">
+                    <h2>Explorer trong suốt</h2>
+                    <p>Tool crask win,office,...(gia hạn thời gian)</p>
+                </div>
+            </div>
+            <div class="popup" id="product-popup">
+                <div class="popup-content">
+                    <span class="close-popup" id="close-popup">×</span>
+                    <h2 id="popup-title"></h2>
+                    <p id="popup-note"></p>
+                    <div class="popup-actions">
+                        <button class="popup-copy-btn" id="popup-copy">📋 Copy</button>
+                        <a class="popup-redirect-btn" href="#" id="popup-redirect" target="_blank">🔗 Đi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay" id="overlay"></div>
+        </div>
+    </section>
+    <script defer="True" src="scripts.js"></script>
+</body>
+</html>
